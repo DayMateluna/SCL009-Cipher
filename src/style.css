@@ -1,1 +1,38 @@
-/* Acá va tu código */
+body{background:#bdbdcf;
+  color: rgb(220, 206, 221);
+}
+
+p {
+    font-size: x-large;
+  }
+  .offsetinput{
+position: relative;
+top: ;
+botom:;
+reight:;
+left:400px ;
+
+  }
+*{
+    margin: 0%;
+    padding:1%;
+
+}
+
+#message, #result{width: 500px;
+    height: 200px;
+    display:block;
+    margin: 40px;
+    border: #bdbdbd solid 2px;
+}
+
+#code,#encode{
+  margin-left: 150px;
+  width: 80px;
+  height: 30px;
+  background-color:rgb(192, 136, 218);
+  color: #212121;
+  border-radius: 5px;
+
+}
+
