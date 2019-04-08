@@ -1,6 +1,7 @@
-body{background:#bdbdcf;
-  color: rgb(220, 206, 221);
-}
+body{background:url(../img/candadito.jpg)no-repeat;
+background-size:auto;
+} 
+
 
 p {
     font-size: x-large;
@@ -24,6 +25,8 @@ left:400px ;
     display:block;
     margin: 40px;
     border: #bdbdbd solid 2px;
+    justify-content: center;
+    margin: 0;
 }
 
 #code,#encode{
