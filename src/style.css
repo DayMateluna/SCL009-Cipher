@@ -1,41 +1,49 @@
-body{background:url(../img/candadito.jpg)no-repeat;
-background-size:auto;
+body{
+  background:url(../img/candadito.jpg)no-repeat;
+  background-size:auto; 
 } 
-
+.fondoUno{
+  background-position: 80% 168%;
+}
 
 p {
-    font-size: x-large;
-  }
-  .offsetinput{
-position: relative;
-top: ;
-botom:;
-reight:;
-left:400px ;
-
-  }
+  font-size: x-large;
+}
+.offsetinput{
+  position: relative;
+  
+  
+}
 *{
-    margin: 0%;
-    padding:1%;
+  margin: 1%;
+  padding:1%;
+  
+}
+.back{
+  background-color: rgba(255, 255, 255, 0.6);
+}
 
+.alineamiento{
+  width: 
+  height:
 }
 
 #message, #result{width: 500px;
-    height: 200px;
-    display:block;
-    margin: 40px;
-    border: #bdbdbd solid 2px;
-    justify-content: center;
-    margin: 0;
+  height: 60px;
+  display:block;
+  margin: 10px;
+  border: #bdbdbd solid 2px;
+  justify-content: center;
+  margin: 0;
 }
 
-#code,#encode{
-  margin-left: 150px;
+#code,#encode,#iralaotrapagina,#iralaotra{
+  margin-left: 100px;
   width: 80px;
   height: 30px;
-  background-color:rgb(192, 136, 218);
-  color: #212121;
+  background-color:rgb(19, 17, 48);
+  color: #e9dbdb;
   border-radius: 5px;
-
+  
 }
 

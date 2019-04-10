@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (offset,text) => {
+  encode:(offset,text) => {
   let ascii="";//numero ascii
   let ascii1="";//formula
   let result="";//cifrado y decifrado
@@ -7,10 +7,8 @@ window.cipher = {
   for(let i=0;i<text.length;i++)
   {  
    ascii=text.charCodeAt(i);//con esto guarda el codigo ascci en cada iteracion
+   
 
-    //if( ascii1>= 32 && ascii1<=64
-   // if(ascii>=65 && ascii<=90)
-  
     if(ascii>=65 && ascii <=90){
       ascii1=(ascii-65+offset)%26+65;//mayusculas
     }
@@ -28,10 +26,6 @@ window.cipher = {
       ascii1=(ascii-33+offset)%15+33;
     }
 
-   // else if(ascii>=58 && ascii<=64){//mas signos
-   //   ascii1=(ascii-58+offset)%7+58;
-    //}
-
    
     //formula para obtener la posicion(numero) de la letra en nuestro abecedario
  
@@ -43,7 +37,7 @@ result += String.fromCharCode(ascii1);//trasforma el resultado de la formula en 
   },
 
 
-    decode: (offset,text) => {
+    decode:(offset,text) => {
     let ascii="";
     let ascii1="";
     let result="";
@@ -70,10 +64,6 @@ result += String.fromCharCode(ascii1);//trasforma el resultado de la formula en 
 
       
     }
-//else if(ascii>=57 && ascii<=64){
- // ascii1=(ascii-58-offset)%7+58;
-//}
-
 
 
 result += String.fromCharCode(ascii1);//trasforma el resultado de la formula en letra 
