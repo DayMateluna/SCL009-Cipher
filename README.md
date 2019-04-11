@@ -1,13 +1,3 @@
-![testeo 2](https://www.youtube.com/watch?v=IRnjPQUPRuM)
-
-
-
-
-
-
-
-
-
 
 
 # Cifrado César
@@ -74,6 +64,8 @@ YO COMO polola romántica QUIERO poder cifrar mensajes románticos a mi novio PA
 ## Prototipos de baja fidelidad
 
 ![primer prototipo de baja fidelidad](../img/protbaja11.jpg)
+
+![segundo prototipo de baja fidelidad](../img/protbaja22.jpg)
 
 ## test de usabilidad
 testeo 1
